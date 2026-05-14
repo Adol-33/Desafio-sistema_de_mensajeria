@@ -1,0 +1,111 @@
+
+* {padding: 0;margin: 0;box-sizing: border-box;}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', Open Sans Regular;font-size: bold;
+    min-width: 396px;
+}
+
+li{list-style: none;}
+li:hover{cursor: pointer;background-color: var(--color-3);}
+a{text-decoration: none;color: inherit;}
+i:hover{cursor: pointer;}
+
+
+.main {
+    border: 2px solid #1B1F21;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.chat {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.escribir {
+    width: 100%;
+    height: 6rem;
+    border: 1px solid #444749;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    gap: .2rem;
+    background-color: #fff;
+}
+
+.div-input {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.escribir input {
+    width: 100%;
+    height: 4rem;
+    margin-top: 1rem;
+    padding: 2rem 0 0 0;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 1.2rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    border-radius: 15px;
+}
+
+.escribir input:focus, .escribir input:active {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.div-iconos {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(46, 200, 46);
+    border-radius: 10px;
+    padding: .5rem;
+    color: #fff;
+}
+
+
+
+.escribir p {
+    position: absolute;
+    top: .5rem;
+    left: .8rem;
+}
+
+.div-chat-texto {
+    width: 100%;
+    /* height: 10rem; */
+    text-align: center;
+}
+
+.div-chat {
+    text-align: center;
+    height: 20rem;
+    width: 1005;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #444749;
+}
