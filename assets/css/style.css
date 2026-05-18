@@ -231,7 +231,7 @@ h2 {
 .div-img-hand {
     width: 15em;
     height: 15em;
-    background-image: url("/assets/img/hand.png");
+    background-image: url("assets/img/hand.png");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
